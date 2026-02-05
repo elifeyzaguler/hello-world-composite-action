@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: elifeyzaguler/hello-world-composite-action@63d007c80c7acb554c0b90f7d4ae1c80b425b126
+        uses: elifeyzaguler/hello-world-composite-action@09c3a3aa8ce2732c1650a9e957da76ef694cba49
         with:
           who-to-greet: 'Elif Feyza'
       - run: echo random-number "$RANDOM_NUMBER"
